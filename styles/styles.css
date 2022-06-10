@@ -2,7 +2,7 @@
     font-family: 'Ralewey', 'Roboto', sans-serif;
     position: relative;
     width: 1600px;
-    height: 1880px;
+    height: auto;
     background: #FFFFFF;
 }
 
@@ -111,7 +111,6 @@ a {
 }
 
 .line {
-    text-decoration: none;
     position: absolute;
     width: 1600px;
     height: 0px;
@@ -119,4 +118,163 @@ a {
     top: 80px;
     border: 1px solid #ECECEC;
 }
+
+/*Main*/
+
+.projects {
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+}
+
+.projects-title {
+    display: none;
+}
+
+.filters {
+    position: absolute;
+    width: 611px;
+    height: 54px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center; 
+    letter-spacing: 0.03em;
+    color: #212121;  
+}
+
+.filter1 {
+    position: absolute;
+    width: 29px;
+    height: 26px;
+    left: 517px;
+    top: 180px;
+}
+
+.filter2 {
+    position: absolute;
+    width: 84px;
+    height: 26px;
+    left: 598px;
+    top: 180px;
+}
+
+.filter3 {
+    position: absolute;
+    width: 101px;
+    height: 26px;
+    left: 734px;
+    top: 180px;
+}
+
+.filter4 {
+    position: absolute;
+    width: 59px;
+    height: 26px;
+    left: 887px;
+    top: 180px;
+}
+
+.filter5 {
+    position: absolute;
+    width: 86px;
+    height: 26px;
+    left: 998px;
+    top: 180px;
+}
+
+.project1 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.project2 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 615px;
+top: 262px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.project3 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 262px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.project4 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 696px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+
+}
+
+.project5 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 615px;
+top: 696px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.project6 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 696px;
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.project7 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 1130px;
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.project8 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 615px;
+top: 1130px;
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.project9 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 1130px;
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
 
