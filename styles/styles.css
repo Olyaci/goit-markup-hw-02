@@ -1,9 +1,15 @@
+body {
+    display: flex;
+    margin: auto;
+}
+
 .body-portfolio {
     font-family: 'Ralewey', 'Roboto', sans-serif;
     position: relative;
     width: 1600px;
-    height: auto;
+    height: 1880px;
     background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header-portfolio {
@@ -84,7 +90,12 @@ a {
     top: 32px;
 }
 
-.contact-header {
+.tel-h {
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -94,20 +105,19 @@ a {
     color: #757575;
 }
 
-.tel-h {
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-}
-
 .mail-h {
     position: absolute;
     width: 135px;
     height: 16px;
     left: 1078px;
     top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 
 .line {
@@ -125,83 +135,103 @@ a {
     position: absolute;
     width: 1170px;
     height: 1360px;
+    left: 215px;
+    top: 174px;
 }
 
 .projects-title {
     display: none;
 }
 
-.filters {
+.buttons {
     position: absolute;
     width: 611px;
     height: 54px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center; 
-    letter-spacing: 0.03em;
-    color: #212121;  
+    left: 495px;
+    top: 174px; 
 }
 
 .filter1 {
     position: absolute;
     width: 29px;
     height: 26px;
-    left: 517px;
-    top: 180px;
+    left: 0px;
+    
 }
 
 .filter2 {
     position: absolute;
     width: 84px;
     height: 26px;
-    left: 598px;
-    top: 180px;
+    left: 81px; 
+   
 }
 
 .filter3 {
     position: absolute;
     width: 101px;
     height: 26px;
-    left: 734px;
-    top: 180px;
+    left: 217px;
+    
 }
 
 .filter4 {
     position: absolute;
     width: 59px;
     height: 26px;
-    left: 887px;
-    top: 180px;
+    left: 370px;
+    
 }
 
 .filter5 {
     position: absolute;
     width: 86px;
     height: 26px;
-    left: 998px;
-    top: 180px;
+    left: 495px;
 }
 
 .project1 {
     position: absolute;
 width: 370px;
 height: 404px;
-left: 215px;
-top: 262px;
+left: 0px;
+top: 88px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
+}
+
+.name-project {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+margin-left: 24px;
+}
+
+.sub-name {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    left: 24px;
+    top: 334px;
 }
 
 .project2 {
     position: absolute;
 width: 370px;
 height: 404px;
-left: 615px;
-top: 262px;
+left: 400px;
+top: 88px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
@@ -210,8 +240,8 @@ border: 1px solid #EEEEEE;
     position: absolute;
 width: 370px;
 height: 404px;
-left: 1015px;
-top: 262px;
+left: 800px;
+top: 88px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
@@ -220,19 +250,18 @@ border: 1px solid #EEEEEE;
     position: absolute;
 width: 370px;
 height: 404px;
-left: 215px;
-top: 696px;
+left: 0px;
+top: 522px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
-
 }
 
 .project5 {
     position: absolute;
 width: 370px;
 height: 404px;
-left: 615px;
-top: 696px;
+left: 400px;
+top: 522px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
@@ -241,8 +270,8 @@ border: 1px solid #EEEEEE;
     position: absolute;
 width: 370px;
 height: 404px;
-left: 1015px;
-top: 696px;
+left: 800px;
+top: 522px;
     background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
@@ -251,8 +280,8 @@ border: 1px solid #EEEEEE;
     position: absolute;
 width: 370px;
 height: 404px;
-left: 215px;
-top: 1130px;
+left: 0px;
+top: 956px;
     background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
@@ -261,8 +290,8 @@ border: 1px solid #EEEEEE;
     position: absolute;
 width: 370px;
 height: 404px;
-left: 615px;
-top: 1130px;
+left: 400px;
+top: 956px;
     background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
@@ -271,10 +300,105 @@ border: 1px solid #EEEEEE;
     position: absolute;
 width: 370px;
 height: 404px;
-left: 1015px;
-top: 1130px;
+left: 800px;
+top: 956px;
     background: #FFFFFF;
 border: 1px solid #EEEEEE;
+}
+
+footer {
+    position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+background: #2F303A;
+}
+
+footer > a {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 60px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+footer > a > span {
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.address {
+    position: absolute;
+width: 231px;
+height: 81px;
+left: 215px;
+top: 111px;
+}
+
+.location {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 111px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.mail-f {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 141px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-f {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 171px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
 }
 
 
