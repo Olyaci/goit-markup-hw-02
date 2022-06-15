@@ -21,7 +21,8 @@ nav > a {
     width: 145px;
     height: 31px;
     left: 215px;
-    top: 24px;
+    margin-top: 24px;
+    margin-bottom: 25px;
     
     font-family: 'Raleway';
     font-style: normal;
@@ -50,7 +51,26 @@ a {
     width: 294px;
     height: 16px;
     left: 453px;
-    top: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.studio {
+    position: absolute;
+    width: 49px;
+    left: 0px;
+}
+
+.portfolio {
+    position: absolute;
+    width: 77px;
+    left: 99px;
+}
+
+.contacts {
+    position: absolute;
+    width: 68px;
+    left: 226px;
 }
 
 .studio,
@@ -64,21 +84,6 @@ a {
 }
 /*navigation*/
 
-.studio {
-    width: 49px;
-    height: 16px;
-}
-
-.portfolio {
-    width: 77px;
-    height: 16px;
-}
-
-.contacts {
-    width: 68px;
-    height: 16px;
-}
-
 .studio:active {
     color: #2196F3;
 }
@@ -91,24 +96,8 @@ a {
     color: #2196F3;
 }
 
-.tel-h {
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
-
 .mail-h {
     position: absolute;
-    width: 135px;
-    height: 16px;
     left: 1078px;
     top: 32px;
 
@@ -119,12 +108,16 @@ a {
     color: #757575;
 }
 
-.mail-h:active {
-    color: #2196F3; 
-} 
+.tel-h {
+    position: absolute;
+    left: 1263px;
+    top: 32px;
 
-.tel-h:active {
-    color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 
 .line {
@@ -312,8 +305,6 @@ footer > a > span {
 
 .location {
     height: 21px;
-    left: 215px;
-    top: 111px;
     
     font-weight: 400;
     font-size: 14px;
@@ -324,7 +315,6 @@ footer > a > span {
 
 .mail-f {
     height: 21px;
-    left: 215px;
     top: 141px;
     
     font-weight: 400;
@@ -336,7 +326,6 @@ footer > a > span {
 
 .tel-f {
     height: 21px;
-    left: 215px;
     top: 171px;
     
     font-weight: 400;
