@@ -2,9 +2,17 @@ body {
     font-family: 'Roboto', sans-serif;
     position: relative;
     width: 1600px;
-    height: 1880px;
+    height: auto;
     background: #FFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.body-web {
+    height: 2349px;
+}
+
+.body-prf {
+    height: 1880px;
 }
 
 header {
@@ -82,17 +90,12 @@ a {
     letter-spacing: 0.02em;
     color: #212121;
 }
-/*navigation*/
 
-.studio:active {
+.studio:active, .portfolio:active, .contacts:active  {
     color: #2196F3;
 }
 
-.portfolio:active {
-    color: #2196F3;
-}
-
-.contacts:active {
+.contacts:hover, .studio:hover, .portfolio:hover {
     color: #2196F3;
 }
 
@@ -120,6 +123,10 @@ a {
     color: #757575;
 }
 
+.mail-h:hover, .tel-h:hover, .mail-h:active, .tel-h:active{
+    color: #2196F3; 
+} 
+
 .line {
     position: absolute;
     width: 1600px;
@@ -129,7 +136,249 @@ a {
     border: 1px solid #ECECEC;
 }
 
-/*Main*/
+/*Main-webstudio*/
+
+.hat {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
+.head {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 200px;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.order {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.order:hover {
+    background: #188CE8;
+}
+
+.text-oder {
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.title-softskills {
+    display: none;
+}
+
+.feature {
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+
+.feature1 {
+    position: absolute;
+    width: 270px;
+    height: 101px;
+    left: 0px;
+}
+
+.feature2 {
+    position: absolute;
+    width: 270px;
+    height: 101px;
+    left: 300px;
+}
+
+.feature3 {
+    position: absolute;
+    width: 270px;
+    height: 101px;
+    left: 600px;
+}
+
+.feature4 {
+    position: absolute;
+    width: 270px;
+    height: 101px;
+    left: 900px;
+}
+
+.skills {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.prg {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.whatdo {
+    position: absolute;
+    width: 376px;
+    height: 42px;
+    left: 612px;
+    top: 969px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.box1 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    margin-top: 1061px;
+}
+
+.box2 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    margin-top: 1061px;
+}
+
+.box3 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    margin-top: 1061px;
+}
+
+.section-team {
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    margin-top: 1449px;
+    background: #F5F4FA;
+}
+
+.ourteam {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    position: absolute;
+    width: 264px;
+    left: 668px;
+    top: 64px;
+}
+
+.team {
+    position: absolute;
+    width: 1170px;
+    height: 368px;
+    left: 215px;
+    top: 186px;
+}
+
+.people1, .people2, .people3, .people4 {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.people1 {
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 0px;
+}
+
+.people2 {
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 300px;
+}
+
+.people3 {
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 600px;
+}
+
+.people4 {
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 900px;
+}
+
+.developer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;    
+}
+
+.sub-d {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+
+
+
+    color: #757575;
+}
+
+/*Main-portfolio*/
 .projects-title {
     display: none;
 }
@@ -144,41 +393,57 @@ a {
 
 .filter1 {
     position: absolute;
-    width: 29px;
-    height: 26px;
-    left: 0px;
-    
+    width: 73px;
+    height: 38px;
+    left: 0px; 
 }
 
 .filter2 {
     position: absolute;
-    width: 84px;
-    height: 26px;
-    left: 81px; 
-   
+    width: 128px;
+    height: 38px;
+    left: 81px;
 }
 
 .filter3 {
     position: absolute;
-    width: 101px;
-    height: 26px;
+    width: 145px;
+    height: 38px;
     left: 217px;
-    
 }
 
 .filter4 {
     position: absolute;
-    width: 59px;
-    height: 26px;
+    width: 103px;
+    height: 38px;
     left: 370px;
-    
 }
 
 .filter5 {
     position: absolute;
-    width: 86px;
-    height: 26px;
-    left: 495px;
+    width: 130px;
+    height: 38px;
+    left: 481px;
+}
+
+.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    height: 38px;
+    top: 174px;
+}
+
+.filter:active, .filter:hover {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .projects {
@@ -266,12 +531,19 @@ a {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     width: 1600px;
     height: 252px;
     left: 0px;
-    top: 1628px;
     background: #2F303A;
+}
+
+.f-w {
+    top: 2097px;
+}
+
+.f-p {
+    top: 1628px;
 }
 
 footer > a {
@@ -297,13 +569,14 @@ footer > a > span {
 
 .address {
     position: absolute;
-    width: 231px;
     height: 81px;
     left: 215px;
     top: 111px;
+    padding: 0px;
 }
 
 .location {
+    width: 231px;
     height: 21px;
     
     font-weight: 400;
@@ -314,8 +587,9 @@ footer > a > span {
 }
 
 .mail-f {
+    width: 231px;
     height: 21px;
-    top: 141px;
+    width: 231px;
     
     font-weight: 400;
     font-size: 14px;
@@ -326,7 +600,6 @@ footer > a > span {
 
 .tel-f {
     height: 21px;
-    top: 171px;
     
     font-weight: 400;
     font-size: 14px;
@@ -334,5 +607,3 @@ footer > a > span {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-
-
