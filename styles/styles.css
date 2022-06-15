@@ -1,18 +1,13 @@
 body {
-    display: flex;
-    margin: auto;
-}
-
-.body-portfolio {
-    font-family: 'Ralewey', 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     width: 1600px;
     height: 1880px;
-    background: #FFFFFF;
+    background: #FFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-portfolio {
+header {
     position: absolute;
     width: 1600px;
     height: 80px;
@@ -39,7 +34,7 @@ nav > a {
 
 nav > a > span {
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: #2196f3;
 }
 
 li {
@@ -50,44 +45,50 @@ a {
     text-decoration: none;
 }
 
-.menu-nav {
-    font-family: 'Roboto';
-    font-style: normal;
+.menu {
+    position: absolute;
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+
+.studio,
+.portfolio,
+.contacts {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
 }
-
-.menu-nav:active {
-    color: #2196F3; 
-}
-
 /*navigation*/
 
 .studio {
-    position: absolute;
     width: 49px;
     height: 16px;
-    left: 453px;
-    top: 32px;
 }
 
 .portfolio {
-    position: absolute;
     width: 77px;
     height: 16px;
-    left: 552px;
-    top: 32px;
 }
 
 .contacts {
-    position: absolute;
     width: 68px;
     height: 16px;
-    left: 679px;
-    top: 32px;
+}
+
+.studio:active {
+    color: #2196F3;
+}
+
+.portfolio:active {
+    color: #2196F3;
+}
+
+.contacts:active {
+    color: #2196F3;
 }
 
 .tel-h {
@@ -96,8 +97,7 @@ a {
     height: 16px;
     left: 1263px;
     top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -111,13 +111,20 @@ a {
     height: 16px;
     left: 1078px;
     top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+}
+
+.mail-h:active {
+    color: #2196F3; 
+} 
+
+.tel-h:active {
+    color: #2196F3;
 }
 
 .line {
@@ -130,15 +137,6 @@ a {
 }
 
 /*Main*/
-
-.projects {
-    position: absolute;
-    width: 1170px;
-    height: 1360px;
-    left: 215px;
-    top: 174px;
-}
-
 .projects-title {
     display: none;
 }
@@ -190,33 +188,81 @@ a {
     left: 495px;
 }
 
-.project1 {
+.projects {
     position: absolute;
-width: 370px;
-height: 404px;
-left: 0px;
-top: 88px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
 }
 
-.name-project {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
-margin-left: 24px;
+.box-prj {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    background: #FFF;
+    border: 1px solid #EEE;
 }
 
+.project1 {
+    left: 0px;
+    top: 88px;
+}
+
+.project2 {
+    left: 400px;
+    top: 88px;
+}
+
+.project3 {
+    left: 800px;
+    top: 88px;
+}
+
+.project4 {
+    left: 0px;
+    top: 522px;
+}
+
+.project5 {
+    left: 400px;
+    top: 522px;
+}
+
+.project6 {
+    left: 800px;
+    top: 522px;
+}
+
+.project7 {
+    left: 0px;
+    top: 956px;
+}
+
+.project8 {
+    left: 400px;
+    top: 956px;
+}
+
+.project9 {
+    left: 800px;
+    top: 956px;
+}
+
+.name-develop {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-left: 24px;
+}
+    
 .sub-name {
     position: absolute;
     width: 322px;
     height: 30px;
-        font-family: 'Roboto';
-    font-style: normal;
+        
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -226,93 +272,13 @@ margin-left: 24px;
     top: 334px;
 }
 
-.project2 {
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 400px;
-top: 88px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-}
-
-.project3 {
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 800px;
-top: 88px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-}
-
-.project4 {
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 0px;
-top: 522px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-}
-
-.project5 {
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 400px;
-top: 522px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-}
-
-.project6 {
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 800px;
-top: 522px;
-    background: #FFFFFF;
-border: 1px solid #EEEEEE;
-}
-
-.project7 {
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 0px;
-top: 956px;
-    background: #FFFFFF;
-border: 1px solid #EEEEEE;
-}
-
-.project8 {
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 400px;
-top: 956px;
-    background: #FFFFFF;
-border: 1px solid #EEEEEE;
-}
-
-.project9 {
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 800px;
-top: 956px;
-    background: #FFFFFF;
-border: 1px solid #EEEEEE;
-}
-
 footer {
     position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 1628px;
-background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background: #2F303A;
 }
 
 footer > a {
@@ -328,77 +294,56 @@ footer > a {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #FFF;
 }
 
 footer > a > span {
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: #2196f3;
 }
 
 .address {
     position: absolute;
-width: 231px;
-height: 81px;
-left: 215px;
-top: 111px;
+    width: 231px;
+    height: 81px;
+    left: 215px;
+    top: 111px;
 }
 
 .location {
-    position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 111px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: #FFFFFF;
+    height: 21px;
+    left: 215px;
+    top: 111px;
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFF;
 }
 
 .mail-f {
-    position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 141px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
+    height: 21px;
+    left: 215px;
+    top: 141px;
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .tel-f {
-    position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 171px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
+    height: 21px;
+    left: 215px;
+    top: 171px;
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 
